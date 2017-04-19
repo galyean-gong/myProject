@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/font-awesome-4.5.0/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="css/register.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-header">
+            <div class="login-logo">
+                <img src="./img/h1_logo.png" alt="" />
+            </div>
+            <div class="main-content">
+                <div class="main-table">
+                    <div class="table-box">
+                        <h2>免费注册&nbsp;<a href="login.html">(已有账号快速登录)</a></h2>
+                        <!--登录表单-->
+                        <form action="">
+                            <!--手机号input-->
+                            <div class="inp">
+                                <input type="text" placeholder="手机号码" id="user" />
+                                <span id="user-err" class="user-err"></span>
+                            </div>
+                            <!--密码input-->
+                            <div class="inp">
+                                <input type="password" placeholder="输入密码" id="pass" />
+                                <span id="pass-err" class="pass-err"></span>
+                            </div>
+                            <!--手机验证码-->
+                            <div class="ver-code clearfix">
+                                <input type="text" placeholder="输入手机验证码" id="ver-code" />
+                                <div id="ver-code-btn">获取验证码</div>
+                            </div>
+                            <!--用户协议-->
+                            <div class="login-info clearfix">
+                                <div class="info-left ">
+                                    <input type="checkbox" checked="checked" class="checked" />
+                                    <lable>我已看过并同意《用户协议》</lable>
+                                </div>
+                            </div>
+                            <!--登录按钮-->
+                            <div class="btn-login" id="btn">立即注册</div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src='js/jquery-1.12.4.min.js'></script>
+<script src="js/register.js"></script>
+
+</html>

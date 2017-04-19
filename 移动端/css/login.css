@@ -1,0 +1,95 @@
+.container{
+	width: 100%;
+	height: 1000px;
+	background: url(../img/login.png) no-repeat center;
+	background-size:cover;
+}
+.login-logo{
+	width: 170px;
+	height: 34px;
+	padding: 100px 0 80px 0;
+	margin: 0 auto;
+}
+/*表单验证*/
+h2{
+	padding: 0;
+	margin: 0;
+}
+.main-content{
+	font-size: 14px;
+}
+.main-table{
+	width:94%;
+	height: 402px;
+	background: url(../img/login-bg.png) center no-repeat;
+	margin: 0 auto;
+	
+	text-align: centerd;
+}
+.table-box{
+	width: 288px;
+	margin: 0 auto;
+}
+.table-box>h2{
+	font-size:18px;
+	padding: 30px 0;
+	font-weight: bold;
+}
+.table-box>h2>a{
+	font-size:14px;
+	font-weight: bold;
+	color:#999;
+}
+.inp>input{
+	width: 285px;
+	height: 38px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	text-indent: 10px;
+	/*padding-bottom: 30px;*/
+}
+.user-err,.pass-err{
+	display: block;
+	height: 40px;
+	line-height:40px;
+	color: #A48667;
+}
+
+
+.info-left,.other-user-left,.other-user-left>ul>li{
+	float:left
+}
+.info-right,.free-res{
+	float: right;
+}
+.info-right>a,.free-res>a{
+	color:#A48667;
+}
+
+.btn-login{
+	background:#A48667;
+	text-align: center;
+	height: 38px;
+	margin: 30px 0;
+	border-radius: 3px;
+	line-height: 38px;
+	font-size: 16px;
+	color:#fff;
+	cursor: pointer;
+}
+.other-user-left>ul>li+li{
+	margin-left:6px;
+}
+.other-user-left>ul>li>a{
+	margin-left:6px;
+	font-size: 14px;
+}
+.fa-weixin:hover{
+	color: #008000;
+}
+.fa-qq:hover{
+	color: #0285D2;
+}
+.fa-weibo:hover{
+	color: red;
+}
