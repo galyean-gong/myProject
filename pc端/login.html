@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.5.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+	<!--条件注释-->
+    <!--[if lte IE 8]>
+<p class="browseupgradw">你的浏览器版本过低请到这里更换<a href="http://browsehappy.com">点击更换</a></p>
+<![endif]-->
+    <div class="wrap">
+        <header class="header">
+            <div class="inner">
+                <!--logo图片-->
+                <div class="logo">
+                    <a href="index.html"><img src="./img/logo.png" alt="logo" /></a>
+                </div>
+                <!--logo下面的线的图片-->
+                <div class="logo-next">
+                    <img src="./img/bg_login.jpg" alt="装饰线" />
+                </div>
+            </div>
+        </header>
+        <!--登录主体-->
+        <div class="main-content">
+            <div class="main-table">
+                <div class="table-box">
+                    <h2>欢迎登录&nbsp;<a href="##">(账号不能登录？请点击)</a></h2>
+                    <!--登录表单-->
+                    <form action="">
+                        <!--手机号input-->
+                        <div class="inp">
+                            <input type="text" placeholder="邮箱/手机号码/用户名" id="user" />
+                            <span id="user-err" class="user-err"></span>
+                        </div>
+                        <!--密码input-->
+                        <div class="inp">
+                            <input type="password" placeholder="密码" id="pass" />
+                            <span id="pass-err" class="pass-err"></span>
+                        </div>
+                        <!--保存登录信息-->
+                        <div class="login-info clearfix">
+                            <div class="info-left ">
+                                <input type="checkbox" checked="checked" />
+                                <lable>保存登录信息</lable>
+                            </div>
+                            <div class="info-right"><a href="##">忘记密码</a></div>
+                        </div>
+                        <!--登录按钮-->
+                        <div class="btn-login" id="btn">立即登录</div>
+                        <!--其他登录方式-->
+                        <div class="other-user clearfix">
+                            <div class="other-user-left clearfix">
+                                <ul class="clearfix">
+                                    <li>其他账号登录</li>
+                                    <li><a href=""><i class="fa fa-weixin fa-lg"></i></a></li>
+                                    <li><a href=""><i class="fa fa-qq fa-lg"></i></a></li>
+                                    <li><a href=""><i class="fa fa-weibo fa-lg"></i></a></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="free-res"><a href="register.html">免费注册</a></div>
+                        </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        <!--底部信息-->
+        <footer class="footer">
+            <p>©123购进口商品直购中心官网 &nbsp;陕ICP证B2-20130549号 陕ICP备12053227号-3号
+                <br>版权所有：陕西壹贰叁购网络科技有限公司</p>
+            <!--底部图片-->
+            <!--<div class="footer-img">
+			<img src="./img/img_mark3.jpg" alt="商标" />
+		</div>-->
+        </footer>
+    </div>
+</body>
+<!--引入的js-->
+<script src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+
+</html>

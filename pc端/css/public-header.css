@@ -1,0 +1,305 @@
+/*初始化样式*/
+
+a {
+    text-decoration: none;
+    color: #525252;
+}
+
+.inner {
+    width: 1160px;
+    margin: 0 auto;
+    /*background: red;*/
+}
+
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+input {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+body {
+    margin: 0 auto;
+}
+
+
+/*公共头部*/
+
+.header,
+.footer,
+.banner,
+.main {
+    min-width: 1340px;
+}
+
+
+/*头部弹框*/
+
+.header-top {
+    font-size: 12px;
+    position: relative;
+}
+
+.header-btn {
+    float: left;
+    padding: 46px 0;
+}
+
+.header-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -15px 0 0 -75px;
+}
+
+.header-login {
+    float: right;
+}
+
+.header-login ul li {
+    float: left;
+    margin-left: 20px;
+    line-height: 128px;
+}
+
+
+/*弹出语言框*/
+
+.header-login ul li:last-child a {
+    position: relative;
+}
+
+.language-box {
+    width: 113px;
+    border: 1px solid #aaa;
+    position: absolute;
+    top: 28px;
+    right: 0px;
+    display: none;
+}
+
+.language-box span {
+    display: block;
+    float: left;
+    line-height: 28px;
+    width: 56px;
+    text-align: center;
+    font-weight: 800px;
+    color: #222;
+}
+
+.language-eng {
+    border-right: 1px solid #aaa;
+}
+
+.language-eng:hover {
+    background: #aaa;
+    color: #fff;
+}
+
+.language-chinese:hover {
+    background: #aaa;
+    color: #fff;
+}
+
+.header-login ul li:last-child a {
+    background: url(../img/header-language-arrow.gif) no-repeat right -4px;
+}
+
+.header-login ul li:last-child a.language-arrow {
+    background: url(../img/header-language-arrow.gif) no-repeat right -32px;
+}
+
+
+/*end 语言框*/
+
+
+/*头部导航样式*/
+
+.header-nav {
+    height: 48px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    line-height: 48px;
+    background: #fff;
+    z-index: 999;
+    width: 100%;
+}
+
+
+/*导航中间*/
+
+.header-nav-box {
+    position: relative;
+    top: -1px;
+}
+
+
+/*一级菜单*/
+
+.header-nav-bar {
+    font-size: 16px;
+    color: #ccc;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+}
+
+.header-nav-bar>ul>li>a {
+    display: block;
+    width: 124px;
+    color: #333;
+    text-align: center;
+    border: 1px solid #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-nav-bar>ul>li:first-child>a:first-child,
+.header-search-icon {
+    border-left: 1px solid #ccc;
+}
+
+.header-nav-bar>ul>li:last-child>a:last-child,
+.header-search-icon {
+    border-right: 1px solid #ccc;
+}
+
+.header-search-icon {
+    cursor: pointer;
+}
+
+.header-nav-bar-active {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-top: 1px solid #a48667;
+    height: 49px;
+    background: #fff;
+}
+
+.header-nav-bar>ul>li,
+.header-shop-bar,
+.header-shop-bar>ul>li {
+    float: left;
+}
+
+
+/*二级菜单*/
+
+.header-nav-menu {
+    width: 99.8%;
+    height: 350px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: none;
+    z-index: 111;
+}
+
+.header-nav-menu ul li {
+    background: #fff;
+}
+
+.header-nav-menu ul li+li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.menu-list {
+    padding-left: 60px;
+}
+
+.menu-title {
+    margin-top: 20px;
+}
+
+.header-nav-menu ul {
+    float: left;
+    width: 220px;
+}
+
+.header-nav-menu>ul>li+li {
+    height: 26px;
+}
+
+.header-nav-menu>ul>li+li>a {
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    line-height: 26px!important;
+}
+
+.menu-title>a {
+    font-size: 16px;
+    color: #A48667;
+}
+
+
+/*购物车*/
+
+.header-shop {
+    position: absolute;
+    right: 0px;
+    width: 406px;
+}
+
+.header-shop-bar>ul>li {
+    padding-left: 18px;
+}
+
+.header-shop-bar ul li:last-child {
+    padding-left: 50px;
+}
+
+.header-shop-bar span {
+    color: #8a6b3c;
+    margin-left: 4px;
+}
+
+
+/*搜索框*/
+
+.header-search {
+    position: absolute;
+    right: 0px;
+}
+
+.header-search-icon {
+    float: right;
+    width: 48px;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    z-index: 111;
+}
+
+.header-input {
+    height: 48px;
+    border: 1px solid cornflowerblue;
+    border-left: none;
+    outline: none;
+    background: #eee;
+    text-indent: 18px;
+    width: 0px;
+    margin-right: -1px;
+}
+
+.fa-search-icon {
+    background: #000;
+    color: #fff;
+    transition: background-color 1s;
+}

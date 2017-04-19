@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script>
+		var a ;
+		function fn1 (callback){
+			a = 10;
+			callback();
+		}
+//		a();
+fn1(fn2);
+//		console.log(a);
+		function fn2 () {
+			console.log(a);
+		}
+//	回调函数
+	</script>
+</html>

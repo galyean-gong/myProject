@@ -1,0 +1,187 @@
+/*初始化style*/
+
+a {
+    text-decoration: none;
+    color: #525252;
+}
+
+.inner {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+input {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+
+/*body{
+	margin:0 auto;
+}*/
+
+body,
+.header,
+.footer,
+.main-content {
+    min-width: 1340px;
+}
+
+
+/*全局样式*/
+
+.wrap {
+    background: url(../img/login-table.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header,
+.main-content,
+.footer {
+    background: rgba(0, 0, 0, .2);
+}
+
+.logo {
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo-next {
+    width: 760px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*表单验证*/
+
+.main-content {
+    padding-top: 80px;
+    font-size: 14px;
+}
+.main-table {
+    width: 378px;
+    height: 402px;
+    background: url(../img/login-bg.png) center no-repeat;
+    margin: 0 auto;
+    text-align: centerd;
+}
+
+.table-box {
+    width: 288px;
+    margin: 0 auto;
+}
+
+.table-box>h2 {
+    font-size: 18px;
+    padding: 30px 0;
+    font-weight: bold;
+}
+
+.table-box>h2>a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #999;
+}
+
+.inp>input {
+    width: 285px;
+    height: 38px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    text-indent: 10px;
+    /*padding-bottom: 30px;*/
+}
+
+.user-err,
+.pass-err {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #A48667;
+}
+
+.info-left,
+.other-user-left,
+.other-user-left>ul>li {
+    float: left
+}
+
+.info-right,
+.free-res {
+    float: right;
+}
+
+.info-right>a,
+.free-res>a {
+    color: #A48667;
+}
+
+.btn-login {
+    background: #A48667;
+    text-align: center;
+    height: 38px;
+    margin: 30px 0;
+    border-radius: 3px;
+    line-height: 38px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.other-user-left>ul>li+li {
+    margin-left: 6px;
+}
+
+.other-user-left>ul>li>a {
+    margin-left: 6px;
+    font-size: 14px;
+}
+
+.fa-weixin:hover {
+    color: #008000;
+}
+
+.fa-qq:hover {
+    color: #0285D2;
+}
+
+.fa-weibo:hover {
+    color: red;
+}
+
+
+/*底部信息*/
+
+.footer {
+    overflow: hidden;
+    /*	height:200px;*/
+}
+
+.footer p {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.footer-img {
+    width: 185px;
+    height: 49px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
