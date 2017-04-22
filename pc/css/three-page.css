@@ -1,0 +1,275 @@
+/*导航下的列表样式*/
+
+.header-menu-list {
+    background: #333;
+    margin-bottom: 60px;
+}
+
+.menu-list-box>ul>li {
+    float: left;
+    width: 289px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 42px;
+    text-indent: 14px;
+    border-left: 1px solid #777;
+    font-weight: normal;
+}
+
+.menu-list-box {
+    border-right: 1px solid #777;
+}
+/*通用样式*/
+.header,.three-page-main,.footer{
+	min-width: 1340px;
+}
+
+/*产品详情页*/
+
+.main-top-left,
+.main-top-right {
+    width: 560px;
+    overflow: hidden;
+}
+
+.main-small {
+    width: 66px;
+    height: 70px;
+    background: url(../img/bg_prod_view.png) no-repeat left 10px;
+}
+
+.main-top-left,
+.main-small,
+.main-top-right>ul>li>img,
+.main-share>ul {
+    float: left;
+}
+
+.main-top-right,
+.main-top-left>img,
+.main-share>span {
+    float: right;
+}
+
+.main-top-right>h1 {
+    font-size: 39px;
+    font-weight: bold;
+}
+
+.main-top-right>span {
+    color: #888;
+    font-size: 16px;
+}
+
+.main-top-right>p {
+    font-size: 16px;
+    line-height: 70px;
+}
+
+.main-top-right>ul>li {
+    float: left;
+    line-height: 48px;
+    text-indent: 10px;
+    color: #A48667;
+}
+
+.main-top-right>ul {
+    margin-bottom: 30px;
+}
+
+.main-line {
+    height: 1px;
+    background: #333;
+}
+
+.main-share>ul {
+    padding: 20px 0;
+}
+
+.main-share>ul>li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #333;
+    border-radius: 2px;
+    margin-right: 4px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.fa-icons {
+    color: #111;
+    cursor: pointer;
+}
+.fa-icons:hover{
+	background: #333;
+	color: #fff;
+}
+
+/*.main-share>ul>li:hover{
+	background: #333;
+	color:#fff;
+}*/
+
+.main-share>span {
+    font-size: 16px;
+}
+
+.main-share>span>i {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 82px;
+}
+
+.main-exp {
+    border-radius: 2px;
+    background: #ddd;
+    line-height: 22px;
+    padding: 10px 0;
+    font-size: 14px;
+    /*text-indent: 10px;*/
+}
+
+.main-exp ul {
+    padding: 0 16px;
+    margin: 0 16px;
+    list-style-type: disc;
+}
+
+.main-exp ul li {
+    list-style-type: disc;
+}
+
+.main-option {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.main-option>span {
+    display: inline-block;
+    width: 90px;
+    height: 20px;
+    border: 1px solid #333;
+    line-height: 20px;
+    margin-left: 60px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.main-btn {
+    margin: 16px 0;
+}
+.main-btn a{
+	display: block;
+    cursor: pointer;
+}
+.main-btn>ul>li {
+    width: 180px;
+    height: 50px;
+    float: left;
+    background: #A48667;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.main-btn>ul>li+li {
+    background: #333;
+    margin-left: 10px;
+}
+
+.main-btn>ul>li>a {
+    color: #fff;
+}
+
+.mian-list-pic {
+    width: 560px;
+    position: relative;
+}
+.mian-list-pic li{
+	cursor: pointer;
+}
+.mian-list-pic:before {
+    content: url(../img/btn_prev0.gif);
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+.mian-list-pic:after {
+    content: url(../img/btn_next0.gif)!important;
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+.mian-list-pic>ul {
+    width: 520px;
+    margin: 0 auto;
+}
+
+.mian-list-pic>ul>li {
+    float: left;
+    text-align: center;
+}
+
+.mian-list-pic>ul>li>img {
+    width: 170px;
+    height: 170px;
+    margin: 10px 0;
+    display: block;
+    border: 1px solid #fff;
+}
+
+.mian-list-pic>ul>li+li {
+    margin-left: 2px
+}
+
+.mian-list-pic>ul>li>img:hover {
+    border: 1px solid #333;
+}
+
+.main-product-title {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.product-list-img {
+    margin: 60px 0;
+}
+
+.main-strat-list {
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.main-strat-list>ul>li {
+    float: left;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #333;
+    width: 230px;
+    border-right: none;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.main-strat-list>ul>li:last-child {
+    width: 233px;
+    border-right: 1px solid #ccc;
+}
+
+
+/*鼠标点击切换样式*/
+
+.mylist-active {
+    border: 1px solid #333!important;
+    border-bottom: none!important;
+}

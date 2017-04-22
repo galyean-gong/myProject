@@ -1,0 +1,192 @@
+/*初始化style*/
+
+a {
+    text-decoration: none;
+    color: #525252;
+}
+
+.inner {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+input {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+
+/*body{
+	margin:0 auto;
+}*/
+
+.header,
+.footer,
+.regs-main {
+  min-width: 1340px;
+}
+
+
+/*全局样式*/
+
+
+/*body{
+	background: rgba(0,0,0,.2);
+}*/
+
+.wrap {
+    min-width: 1340px;
+    background: url(../img/login-table.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.wrap-color{
+	min-height: 800px;
+	 min-width: 1340px;
+    background: rgba(0, 0, 0, .2);
+}
+.logo {
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo-next {
+    width: 760px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*注册主体*/
+
+.regs-main-box {
+    width: 870px;
+    border: 1px solid #999;
+    margin: 60px auto 0;
+    background: #f9f9f9 url(../img/bom_cor.png) no-repeat bottom;
+    font-size: 14px;
+}
+
+.regs-main-box>h4 {
+    font-size: 26px;
+    color: #A48667;
+    font-weight: bold;
+    line-height: 60px;
+    text-indent: 20px;
+}
+
+.regs-main-box>p {
+    text-indent: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #999;
+}
+
+.myform input {
+    text-indent: 10px;
+}
+
+.myform span {
+    color: #A48667;
+}
+
+.myform tr td:first-child {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 40px
+}
+
+span.user-regs {
+    color: #999;
+}
+
+.regs-main-box>p>a,
+.user-regs>a {
+    text-decoration: underline;
+    color: #A48667;
+}
+
+.regs-main-box td:first-child {
+    text-align: right;
+    font-size: 16px;
+}
+
+.regs-main-box input {
+    width: 212px;
+    height: 38px;
+    border: 1px solid#ccc;
+    border-radius: 3px;
+    margin: 18px 0;
+}
+
+.regs-main-box td input:first-child {
+    margin-top: 18px;
+    ;
+}
+
+#phone-code {
+    height: 38px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#phone-code,
+#btn {
+    width: 120px;
+    background: #A48667;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+
+#btn {
+    width: 140px;
+    height: 38px;
+    border-radius: 3px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.user-regs {
+    color: #999;
+    display: block;
+    margin: 18px 0 60px 0;
+}
+
+#btn {
+    cursor: pointer;
+}
+
+
+/*底部信息*/
+
+.footer {
+    overflow: hidden;
+    /*	height:200px;*/
+}
+
+.footer p {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.footer-img {
+    width: 185px;
+    height: 49px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
